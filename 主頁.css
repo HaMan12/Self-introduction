@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+  width: 100%;
+  height: 80vh;
+  background:linear-gradient(175deg,transparent 70%, white 30%) right center/100% 100%,
+  url("./圖片/backimg.png") left center /auto auto;
+  opacity: 0.7;  
+}
+.banner-text{
+ text-align: center;
+ line-height: 600px;
+ color: white;
+ position: relative;
+ font-size: 30px;
+ 
+}
+.banner-text::after{
+  content: "";
+  position: absolute;
+  background: rgb(243, 5, 5);
+  top: 40%;
+  left: 40%;
+  height: 3px;
+  width: 15%;
+}
+.banner-text::before{
+  content: "";
+  position: absolute;
+  background: rgb(243, 5, 5);
+  top: 60%;
+  left: 45%;
+  height:3px;
+  width: 15%;
+}
+.meddle{
+  width: 100%;
+  height: 100vh;
+}
+.meddle-text{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 35px;
+}
+.meddle-text h1{
+  background: linear-gradient(45deg, #bfdae3	, #00bfff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+}
+.meddle-box{
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+.meddle-box1{
+ width: 50%;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+.meddle-box1 img{
+  border-radius: 20px 20px 20px 20px;
+  border: 5px solid yellow;
+  transition: 0.5s;
+}
+.meddle-box1 img:hover{
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+.meddle-box2{
+  width:50%;
+  padding-right: 100px;
+}
+.box2-text h3{
+  padding: 20px; 
+  color: #696969	;
+  font-size: 30px;
+}
+.box2-text p{
+  color: #808080	;
+  font-size: 22px;
+  font-family: 標楷體;
+}
+.box2-bottom-text p{
+  color:#87ceeb;
+  padding-left: 20px;
+}
+.box2-bottom-btn input{
+  border-radius:20px 20px 20px 20px;
+  border: 1px solid bisque;
+  color: #eef5f7;
+  background-color:#00ced1;
+  height:50px;
+  width: 100px;
+  font-size: 10px;
+  margin: 25px;
+  transition: 0.5s;
+  opacity: 0.6;
+}
+.box2-bottom-btn input:hover{
+  opacity: 1;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 3px gray;
+}
+.meddle-1{
+  width: 100%;
+  height: 800px;
+  background:linear-gradient(355deg,transparent 70%, white 30%) right center/100% 100%,
+  url("./圖片/第三部分背景2.jpg") left center /auto auto;
+  opacity: 0.6;
+  position: relative;  
+ 
+}
+.card{
+  height: 300px;
+  width: 300px;
+  background-color:#ecf2f3;
+  opacity: 0.9;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transition: 0.5s;
+}
+.card1{
+  height: 300px;
+  width: 300px;
+  background-color:#ecf2f3;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transition: 0.5s;
+}
+.card2{
+  height: 300px;
+  width: 300px;
+  background-color:#ecf2f3;
+  opacity: 0.9;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transition: 0.5s;
+}
+.card-text h3{
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  font-size: 20px;
+}
+.card-p p{
+  position: absolute;
+  text-align: center;
+  padding-left: 40%;
+  font-size: 15px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.card:hover{
+  top:45%;
+  transform: scale(1.1);
+}
+.card1:hover{
+  top:45%;
+  transform: scale(1.1);
+}
+.card2:hover{
+  top:45%;
+  transform: scale(1.1);
+}
+.meddle-2{
+  width: 100%;
+  height:1000px;
+}
+.meddle-2-text{
+  display: block;
+  margin-left: 45%;
+  margin-right: 50%;
+  width: 300px;
+  height: 100px;
+  font-size: 25px;
+  margin-top: 150px;
+}
+.meddle-2-text h1{
+  background: linear-gradient(45deg, #bfdae3	, #00bfff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+}
+
+.meddle-2-box{
+  width: 200px;
+  height: 30px;
+  background-color: #6495ed;
+  display: block;
+  margin: 0 0 0 20%;
+  transition-duration:1s; 
+  margin-bottom: 20px;
+  position: relative;
+}
+.meddle-2-box p{
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+.meddle-2-box:hover{
+  background-color: #ffa500;
+}
+.meddle-2-text1{
+ height: 200px;
+ width: 1000px;
+ margin-left: 25%;
+ margin-bottom: 20px;
+}
+.meddle-2-text1 h3{
+  color: #696969	;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.meddle-2-text1 h4{
+  color: #696969	;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.meddle-2-text1 p{
+  color: #696969	;
+  font-size: 15px;
+  font-size: 1rem;
+}
+.meddle-2-bigbox{
+  position: relative;
+}
+.meddle-2-bigbox::after{
+  position: absolute;
+  content:'';
+  top: 0%;
+  height: 100%;
+  left: 20%;
+  border:2px solid #56332e;
+}
+.bottom{
+  width: 100%;
+  height:700px;
+}
+.bottom-text{
+  display: block;
+  margin-left: 35%;
+  margin-right: 50%;
+  width: 600px;
+  height: 100px;
+  font-size: 25px;
+  margin-top: 400px;
+}
+.bottom-text h1{
+  background: linear-gradient(45deg, #bfdae3	, #00bfff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-bottom: 50px;
+  margin-left:100px;
+  font-size: 40px;
+}
+.bottom-img{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap:150px;
+  margin-right: 50px;
+
+}
+.bottom-img-text{
+  text-align: center;
+  background-color: #fff5ee;
+  border: 20px solid lightgoldenrodyellow;
+  font-family: 標楷體;
+}
+.footer{
+  width: 800px;
+  height: 500px;
+}
+.footer-title h1{
+  background: linear-gradient(45deg, #bfdae3	, #00bfff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding-bottom:100px;
+  margin-top: 100px;
+  margin-left: 150px; 
+  font-size: 40px;
+}
+.footer-Hexagon{
+  width:217px;
+  height:250px;
+  background: linear-gradient(45deg, 	#00ffff	, #00bfff);
+  -webkit-clip-path:polygon(50% 0%, 100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  margin-right: 30px;
+  transition-duration:10s; 
+}
+.footer-link{
+  display: flex;
+  width: 800px;
+  position: absolute;
+  left: 28%;
+}
+.footer-text{
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+.footer-text1{
+  text-align: center;
+  font-size: 15px; 
+  font-weight:600;
+  margin-top: -30px;
+  color:#00A8A8;
+  letter-spacing: 3px;
+}
+.footer-Hexagon:hover{
+  background :linear-gradient(to top,#a9a9a9	,	#FFB630);
+}
+.footer-text3{
+  transition-duration: 1s;
+ 
+}
+.footer-Hexagon:hover.footer-text3{
+  display: inline;
+}
+iframe{
+  padding-left:400px;
+  padding-bottom: 100px;
+}
+
+
+
+
+
+
+
