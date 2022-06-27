@@ -112,6 +112,7 @@
     }
    .bottom-img{
      display: block;
+     margin-left: 5%;
    }
    .bottom-img-text{
     border: 10px solid lightgoldenrodyellow;
