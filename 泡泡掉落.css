@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/* background-position: center;將背景圖片水平置中於該容器 */
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(./泡泡圖片/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bubbles img {
+  width: 30px;
+  animation: bubbles 5s linear infinite;
+}
+@keyframes bubbles {
+  0% {
+    transform: translateY(-700px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+}
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.content h1 {
+  font-size: 40px;
+  color: rgb(236, 243, 243);
+  text-shadow: 0 0 3px lightblue, 0 0 5px blue;
+}
+.content h3 {
+  font-size: 30px;
+  color: rgb(236, 243, 243);
+  text-shadow: 0 0 3px lightblue, 0 0 5px blue;
+  padding-bottom: 50px;
+}
+
+/* cursor: pointer; 啟動鈕*/
+.enter {
+  color: rgb(243, 84, 84);
+  padding: 5px 20px;
+  margin-top: 10px;
+  background-color: transparent;
+  opacity: 0.5;
+  font-size: 40px;
+  border: 1px solid rgb(22, 52, 71);
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  text-shadow: 0 0 3px #39b9ff, 0 0 5px #04fcdb;
+}
+.enter:hover {
+  background-color: #39b9ff;
+  color: blue;
+  transition: 1s;
+}
+.bubbles img:nth-child(1) {
+  animation-delay: 2s;
+}
+.bubbles img:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.bubbles img:nth-child(3) {
+  animation-delay: 2.5s;
+}
+.bubbles img:nth-child(4) {
+  animation-delay: 0.5s;
+}
+.bubbles img:nth-child(5) {
+  animation-delay: 1.2;
+}
+.bubbles img:nth-child(6) {
+  animation-delay: 2.1s;
+}
+.bubbles img:nth-child(7) {
+  animation-delay: 0.9s;
+}
+.bubbles img:nth-child(8) {
+  animation-delay: 1.5s;
+}
+
+@media (max-width: 1024px){
+    .content {
+        left: 40%;
+    }
+    .content h3 {
+        font-size: 40px;
+      }
+    .content h1 {
+        font-size: 40px;
+      }   
+}
+
+@media (max-width: 480px) {
+  .content {
+    left: 40%;
+  }
+  .content h3 {
+    font-size: 30px;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+}
+
