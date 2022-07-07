@@ -1,14 +1,16 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
+ 
     .banner{
      max-width: 100%;
      height: auto;
      height: 60vh;
      background-attachment:scroll;
      background-repeat: no-repeat;
+     background-size: cover;
     }
     .banner-text{
       font-size: 20px;
-      line-height: 400px;
+      line-height:350px;
     }
     .meddle{
       width: 100%;
@@ -50,12 +52,16 @@
      text-align: center;
      color:#065e81;
      }
-    .box2-bottom-btn{
-     display: flex;
-     background-color: black;
+     .box2-bottom-btn{
+      display:flex;
+      background-color: #696969;
+     }
+     .box2-bottom-btn input{
+      background-color: #065e81;
     }
     .meddle-1{
-      opacity:1 ;
+      height:600px ;
+      opacity:1;
     }
     .card{
      width: 33%;
@@ -99,10 +105,10 @@
     width: 300px;
     padding-left: 20px;
     }
-    iframe{
+    .video{
       width:300px;
       height:160px;
-      padding-left: 0px;
+      
       padding-bottom: 0px;
       padding-top: 100px;
       padding-left: 40px;
@@ -112,9 +118,7 @@
       height:800px;
     }
     .botoom-text{
-      width:100%;
-      height: 100px;
-      
+    
     }
     .bottom-text h1{
      text-align:center;
@@ -156,5 +160,10 @@
    }
    .footer-Hexagon{
     margin-top: 30px;
-   }
+  }
+  .contect{
+    margin-top:50px;
+    width: 100%;
+    height: 465px;
+  }
   }
