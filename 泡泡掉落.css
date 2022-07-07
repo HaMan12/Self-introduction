@@ -20,7 +20,7 @@ body {
 }
 @keyframes bubbles {
   0% {
-    transform: translateY(-700px);
+    transform: translateY(-800px);
     opacity: 0;
   }
   50% {
