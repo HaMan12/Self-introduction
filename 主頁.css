@@ -3,12 +3,12 @@
     padding: 0;
 }
 .banner{
-  width: 100%;
-  height:100vh;
-  background:linear-gradient(175deg,transparent 70%, white 30%) right center/100% 100%,
+  max-width: 100%;
+  height:auto;
+  background:linear-gradient(170deg,transparent 70%, white 30%) right center/100% 100%,
   url("./圖片/backimg.png") left center /auto auto;
-  background-attachment:fixed;
   opacity: 0.7;  
+  background-attachment:fixed;
 }
 .banner-text{
  text-align: center;
@@ -115,7 +115,7 @@
   url("./圖片/第三部分背景2.jpg") left center /auto auto;
   opacity: 0.6;
   position: relative;  
- 
+  
 }
 .card{
   height: 300px;
@@ -345,10 +345,16 @@
   font-size: 18px;
   transition-duration:1s;
 }
-iframe{
+.video{
   padding-left:400px;
   padding-bottom: 100px;
 }
+.contect{
+  margin-top:50px;
+  width: 100%;
+  height: 420px;
+}
+
 
 
 
