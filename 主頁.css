@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width:100%;
 }
 .banner{
   max-width: 100%;
@@ -9,6 +10,7 @@
   url("./圖片/backimg.png") left center /auto auto;
   opacity: 0.7;  
   background-attachment:fixed;
+  background-repeat: no-repeat;
 }
 .banner-text{
  text-align: center;
@@ -59,7 +61,7 @@
   height: 600px;
 }
 .meddle-box1{
- width: 50%;
+ width: 45%;
  justify-content: center;
  align-items: center;
  display: flex;
@@ -75,12 +77,15 @@
 }
 .meddle-box2{
   width:50%;
-  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .box2-text h3{
   padding: 20px; 
   color: #696969	;
   font-size: 30px;
+  text-align: center;
 }
 .box2-text p{
   color: #808080	;
@@ -89,7 +94,14 @@
 }
 .box2-bottom-text p{
   color:#87ceeb;
-  padding-left: 20px;
+  text-align: center;
+}
+.box2-bottom-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center; 
+  gap:10%;
 }
 .box2-bottom-btn input{
   border-radius:20px 20px 20px 20px;
@@ -97,11 +109,9 @@
   color: #eef5f7;
   background-color:#00ced1;
   height:50px;
-  width: 100px;
-  font-size: 10px;
-  margin: 25px;
   transition: 0.5s;
   opacity: 0.6;
+  width: 25%;
 }
 .box2-bottom-btn input:hover{
   opacity: 1;
@@ -109,7 +119,7 @@
   box-shadow: 5px 5px 3px gray;
 }
 .meddle-1{
-  width: 100%;
+  max-width: 100%;
   height: 800px;
   background:linear-gradient(355deg,transparent 70%, white 30%) right center/100% 100%,
   url("./圖片/第三部分背景2.jpg") left center /auto auto;
@@ -119,7 +129,7 @@
 }
 .card{
   height: 300px;
-  width: 300px;
+  width: 20%;
   background-color:#ecf2f3;
   opacity: 0.9;
   position: absolute;
@@ -129,7 +139,7 @@
 }
 .card1{
   height: 300px;
-  width: 300px;
+  width:  20%;
   background-color:#ecf2f3;
   opacity: 1;
   position: absolute;
@@ -139,7 +149,7 @@
 }
 .card2{
   height: 300px;
-  width: 300px;
+  width: 20%;
   background-color:#ecf2f3;
   opacity: 0.9;
   position: absolute;
@@ -178,16 +188,14 @@
   transform: scale(1.1);
 }
 .meddle-2{
-  width: 100%;
+  max-width: 100%;
   height:1000px;
 }
 .meddle-2-text{
-  display: block;
   margin-left:45%;
   margin-right:auto;
-  width: 300px;
+  width:100%;
   height: 100px;
-  font-size: 25px;
   margin-top: 150px;
 }
 .meddle-2-text h1{
@@ -197,7 +205,6 @@
   color: transparent;
   font-size: 40px;
 }
-
 .meddle-2-box{
   width: 200px;
   height: 30px;
@@ -216,11 +223,13 @@
 .meddle-2-box:hover{
   background-color: #ffa500;
 }
+
 .meddle-2-text1{
  height: 200px;
- width: 1000px;
+ width:60%;
  margin-left: 25%;
  margin-bottom: 20px;
+ 
 }
 .meddle-2-text1 h3{
   color: #696969	;
@@ -254,7 +263,6 @@
   margin-top: 400px;
 }
 .bottom-text{
-  width: 100%;
   height: 100px;
   display:block;
   margin-left: auto;
@@ -274,7 +282,7 @@
   display: flex;
   justify-content:center;
   align-items:center;
-  gap:150px;
+  gap:10%;
 }
 .bottom-img-text{
   text-align: center;
@@ -287,7 +295,6 @@
   height:400px;
 }
 .footer-title{
-  width: 600px;
   height: 100px;
   margin-top: 200px;
   display:block;
@@ -323,7 +330,8 @@
   display: flex;
   justify-content:center;
   align-items:center;
-  width:100%;
+  max-width:100%;
+  flex-wrap: wrap;
 }
 .footer-text{
   text-align: center;
