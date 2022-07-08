@@ -1,7 +1,7 @@
-*{
+*,*:after,*:before{
     margin: 0;
     padding: 0;
-    max-width:100%;
+    box-sizing: border-box;
 }
 .banner{
   max-width: 100%;
@@ -39,8 +39,8 @@
   width: 15%;
 }
 .meddle{
-  width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  height:800px;
 }
 .meddle-text{
   justify-content: center;
@@ -57,14 +57,15 @@
 }
 .meddle-box{
   display: flex;
-  width: 100%;
-  height: 600px;
+  max-width: 100%;
+  height:700px;
 }
 .meddle-box1{
  width: 45%;
  justify-content: center;
- align-items: center;
+ align-items:flex-start;
  display: flex;
+ padding-top: 10%;
 }
 .meddle-box1 img{
   border-radius: 20px 20px 20px 20px;
@@ -76,13 +77,14 @@
   transform: scale(1.1);
 }
 .meddle-box2{
-  width:50%;
+  width:48%;
   justify-content: center;
-  align-items: center;
+  align-items:flex-start;
   display: flex;
+  margin-left:2% ;
+  padding-top: 10%;
 }
 .box2-text h3{
-  padding: 20px; 
   color: #696969	;
   font-size: 30px;
   text-align: center;
@@ -119,42 +121,43 @@
   box-shadow: 5px 5px 3px gray;
 }
 .meddle-1{
-  max-width: 100%;
-  height: 800px;
+  max-width:100%;
+  height: 700px;
   background:linear-gradient(355deg,transparent 70%, white 30%) right center/100% 100%,
   url("./圖片/第三部分背景2.jpg") left center /auto auto;
   opacity: 0.6;
-  position: relative;  
-  
+  position: relative ;  
+  display: flex;
 }
 .card{
   height: 300px;
-  width: 20%;
+  width: 25%;
   background-color:#ecf2f3;
   opacity: 0.9;
-  position: absolute;
   top: 50%;
-  left: 15%;
+  margin-left:8%;
   transition: 0.5s;
+  float: left;
+  position: absolute;
 }
 .card1{
   height: 300px;
-  width:  20%;
+  width:  25%;
   background-color:#ecf2f3;
   opacity: 1;
-  position: absolute;
   top: 50%;
-  left: 40%;
+  margin-left:41%;
   transition: 0.5s;
+  position: absolute;
 }
 .card2{
   height: 300px;
-  width: 20%;
+  width: 25%;
   background-color:#ecf2f3;
   opacity: 0.9;
   position: absolute;
   top: 50%;
-  left: 65%;
+  margin-left: 71%;
   transition: 0.5s;
 }
 .card-text h3{
@@ -164,9 +167,7 @@
   font-size: 20px;
 }
 .card-p p{
-  
   text-align: center;
-  
   font-size: 15px;
 }
 .icon{
@@ -258,7 +259,7 @@
   border:2px solid #432e56;
 }
 .bottom{
-  width: 100%;
+  max-width: 100%;
   height:600px;
   margin-top: 400px;
 }
@@ -291,8 +292,8 @@
   font-family: 標楷體;
 }
 .footer{
-  width:100%;
-  height:400px;
+  max-width:100%;
+  height:800px;
 }
 .footer-title{
   height: 100px;
