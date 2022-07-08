@@ -11,6 +11,7 @@
   opacity: 0.7;  
   background-attachment:fixed;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .banner-text{
  text-align: center;
